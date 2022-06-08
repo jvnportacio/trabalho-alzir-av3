@@ -1,0 +1,51 @@
+public class funcionario
+  {
+      private String nome;
+      private String sobrenome;
+      private int datanasc;
+      private double RG;
+      private double telefone;
+      private double CPF;
+
+
+    public String getNome()
+    {
+      return nome;
+    }
+    public String getSobrenome()
+    {
+      return sobrenome;
+    }
+    public int getDatanasc()
+    {
+      return datanasc;
+    }
+    public double getRg()
+    {
+      return RG;
+    }
+    public double getTelefone()
+    {
+      return telefone;
+    }
+    public double getCpf()
+    {
+      return CPF;
+    }
+  }
+  
+  public class dependente
+{
+  private String nome;
+  private String funcionario;
+  
+  public String getNome()
+  {
+    return nome;
+  }
+
+  public String getFuncionario()
+  {
+    return funcionario;
+  }
+}
